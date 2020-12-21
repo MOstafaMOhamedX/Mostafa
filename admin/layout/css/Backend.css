@@ -1,0 +1,369 @@
+/* Start main rules*/
+
+body {
+    background-color: #F4F4F4;
+    font-size: 16px;
+    font-family: cursive;
+    margin-bottom: 500px;
+}
+
+
+/* end main rules*/
+
+
+/* Start Login form */
+
+.login {
+    width: 400px;
+    margin: 100px auto;
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    background-color: #EAEAEA;
+}
+
+.login .btn {
+    background-color: #3582c4;
+}
+
+.login h4 {
+    color: #888;
+    font-size: 30px;
+}
+
+
+/* end Login form */
+
+
+/* Start Bootstrab*/
+
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    font-size: 1em;
+}
+
+.nav>li>a,
+.navbar-brand {
+    padding: 15px 12px;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu {
+    background-color: #3498db;
+}
+
+.dropdown-menu {
+    color: #FFF;
+    border: none;
+    min-width: 250px;
+    margin: 0px;
+    font-size: 1em;
+    border-radius: 0px;
+}
+
+.dropdown-menu>li>a {
+    color: #FFF;
+    padding: 10px 15px;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    color: #FFF;
+    background-color: #8e44ad;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+
+/* end  Bootstrab */
+
+
+/* start  Dashboard */
+
+.home-stats .stat {
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    padding: 20px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 40px 40px #CCC;
+}
+
+.home-stats .stat a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.home-stats .stat span {
+    display: block;
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+.latest {
+    margin-top: 30px;
+}
+
+.home-stats .st-users {
+    background-color: #3a8a12;
+    max-height: 170px;
+    min-height: 170px;
+}
+
+.home-stats .st-members {
+    background-color: #3498db;
+    max-height: 170px;
+    min-height: 170px;
+}
+
+.home-stats .st-pinding {
+    background-color: #f03434;
+    max-height: 170px;
+    min-height: 170px;
+}
+
+.home-stats .st-items {
+    background-color: #f9690e;
+    max-height: 170px;
+    min-height: 170px;
+}
+
+.home-stats .st-comments {
+    background-color: #963694;
+    max-height: 170px;
+    min-height: 170px;
+}
+
+.latest-users {
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.latest-users li {
+    padding: 5px 0px;
+    overflow: hidden;
+}
+
+.latest-users li:nth-child(odd) {
+    background-color: #EEE;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.latest-users .btn-success {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.stat i {
+    display: block;
+    position: relative;
+    float: left;
+    padding-top: 47px;
+    font-size: 50px;
+}
+
+
+/* end  Dashboard */
+
+
+/* start  Members */
+
+h1 {
+    font-size: 55px;
+    margin: 40px 0px;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
+
+.asterisk {
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 3px;
+    color: #D20707;
+}
+
+.show-pass {
+    position: absolute;
+    top: 1px;
+    right: -19px;
+}
+
+.main-table {
+    box-shadow: 0 3px 20px #CCC;
+}
+
+.main-table td {
+    background-color: #FFF;
+    vertical-align: middle !important;
+}
+
+.main-table tr:first-child td {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.main-table .btn {
+    padding: 3px 10px;
+}
+
+.activate {
+    margin-left: 5px;
+}
+
+.main-table i {
+    padding-right: 5px;
+}
+
+.manage-members img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* end  Members */
+
+
+/* start categories*/
+
+.btn-dash {
+    display: none;
+}
+
+.btn-dash0:hover .btn-dash {
+    display: block;
+}
+
+.btn-dash label {
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.panel-body th {
+    background-color: #333;
+    color: #EEE;
+}
+
+.right {
+    float: right;
+    margin: 3px;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+.panel-heading .active {
+    text-decoration: none;
+    font-weight: bold;
+    color: #D20707;
+}
+
+.container .panel a {
+    text-decoration: none;
+}
+
+.categories {
+    display: block;
+}
+
+.block hr {
+    margin: 10px;
+}
+
+.cat {
+    font-size: 30px;
+    float: left;
+    padding-left: 10px;
+}
+
+.panel-body a {
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.links,
+.data {
+    display: none;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.block:hover .data {
+    display: block;
+}
+
+.block:hover .links {
+    display: block;
+}
+
+.panel-body .data {
+    padding-left: 10px;
+}
+
+.txt {
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.success {
+    background-color: green;
+}
+
+.warning {
+    background-color: darkmagenta;
+}
+
+.danger {
+    background-color: black;
+}
+
+.info {
+    background-color: blue;
+}
+
+
+/*end categories*/
+
+
+/*end Items*/
+
+.selectboxit-container .selectboxit {
+    font-size: 14px;
+    width: 100%;
+}
+
+.selectboxit-container span,
+.selectboxit-container .selectboxit-options a {
+    height: 36px;
+    line-height: 39px;
+}
+
+
+/*end Items*/
